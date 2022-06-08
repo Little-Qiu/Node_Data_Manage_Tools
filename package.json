@@ -4,7 +4,7 @@
   "description": "空间数据管理",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Little-Qiu/Node_Data_Manage_Tools/issues"
   },
-  "homepage": "https://github.com/Little-Qiu/Node_Data_Manage_Tools#readme"
+  "homepage": "https://github.com/Little-Qiu/Node_Data_Manage_Tools#readme",
+  "devDependencies": {
+    "electron": "^19.0.3"
+  }
 }
